@@ -1,0 +1,270 @@
+{
+    "Auto: Gas, Parking, etc.": [
+        "Auto: Gas, Parking, etc.",
+        [
+            "Gas & Fuel",
+            "Parking",
+            "Public Transportation",
+            "Tolls"
+        ]
+    ],
+    "Auto: Insurance": [
+        "Auto: Insurance",
+        [
+            "Auto & Transport",
+            "Auto Insurance"
+        ]
+    ],
+    "Auto: Service & Parts": [
+        "Auto: Service & Parts",
+        [
+            "Service & Parts"
+        ]
+    ],
+    "Bills: Elec, Gas": [
+        "Bills: Elec, Gas",
+        [
+            "Electricity",
+            "Gas"
+        ]
+    ],
+    "Bills: Mobile": [
+        "Bills: Mobile",
+        [
+            "Mobile Phone"
+        ]
+    ],
+    "Bills: Phone, Sec": [
+        "Bills: Phone, Sec",
+        [
+            "Home Phone",
+            "Home Security"
+        ]
+    ],
+    "Bills: TV, Internet": [
+        "Bills: TV, Internet",
+        [
+            "Internet",
+            "Television"
+        ]
+    ],
+    "Bills: Water, Sewage": [
+        "Bills: Water, Sewage",
+        [
+            "Water and Sewage"
+        ]
+    ],
+    "Education": [
+        "Education",
+        [
+            "Books",
+            "Books & Supplies",
+            "Education",
+            "Tuition"
+        ]
+    ],
+    "Entertainment": [
+        "Entertainment",
+        [
+            "Alcohol & Bars",
+            "Amusement",
+            "Arts",
+            "Entertainment",
+            "Hobbies",
+            "Movies & DVDs",
+            "Music",
+            "Newspapers & Magazines",
+            "Other Events",
+            "Party",
+            "Toys",
+            "Toys & Games"
+        ]
+    ],
+    "Gifts, Charity": [
+        "Gifts, Charity",
+        [
+            "Charity",
+            "Gift",
+            "School Donations"
+        ]
+    ],
+    "Groceries": [
+        "Groceries",
+        [
+            "Food & Dining",
+            "Groceries",
+            "Kids School Lunches"
+        ]
+    ],
+    "Health: Doctor": [
+        "Health: Doctor",
+        [
+            "Dentist",
+            "Doctor",
+            "Pharmacy"
+        ]
+    ],
+    "Health: Preventative": [
+        "Health: Preventative",
+        [
+            "Eyecare",
+            "Gym",
+            "Hair",
+            "Health & Fitness",
+            "Health Insurance",
+            "Other Personal Care",
+            "Personal Care",
+            "Spa & Massage"
+        ]
+    ],
+    "Home: Mortgage, HMI, Tax": [
+        "Home: Mortgage, HMI, Tax",
+        [
+            "Home Insurance",
+            "Mortgage & Rent",
+            "Property Tax"
+        ]
+    ],
+    "Home: Objects": [
+        "Home: Objects",
+        [
+            "Furnishings",
+            "Home",
+            "Home Appliances",
+            "Home Goods",
+            "Home Improvement",
+            "Home Supplies",
+            "Utilities"
+        ]
+    ],
+    "Home: Services": [
+        "Home: Services",
+        [
+            "Home Services",
+            "Lawn & Garden"
+        ]
+    ],
+    "Kids: Activities": [
+        "Kids: Activities",
+        [
+            "Baby Supplies",
+            "Babysitter & Daycare",
+            "Kids Activities"
+        ]
+    ],
+    "Kids: Allowance, etc.": [
+        "Kids: Allowance, etc.",
+        [
+            "Allowance",
+            "Kids"
+        ]
+    ],
+    "Misc": [
+        "Misc",
+        [
+            "ATM Fee",
+            "Bank Fee",
+            "Bills & Utilities",
+            "Business Services",
+            "Cash & ATM",
+            "Check",
+            "Club Membership",
+            "Fees & Charges",
+            "Finance Charge",
+            "Late Fee",
+            "Legal",
+            "Life Insurance",
+            "Local Tax",
+            "Misc Expenses",
+            "Office Supplies",
+            "Printing",
+            "Service Fee",
+            "Shipping",
+            "Shopping",
+            "Subscriptions",
+            "Taxes",
+            "Uncategorized"
+        ]
+    ],
+    "Restaurants": [
+        "Restaurants",
+        [
+            "Coffee Shops",
+            "Fast Food",
+            "Restaurants"
+        ]
+    ],
+    "Shopping: Clothing, Elecs": [
+        "Shopping: Clothing, Elecs",
+        [
+            "Clothing",
+            "Electronics & Software"
+        ]
+    ],
+    "Sports": [
+        "Sports",
+        [
+            "Running Events",
+            "Sporting Goods",
+            "Sports"
+        ]
+    ],
+    "Unbudgeted": [
+        "Unbudgeted",
+        [
+            "Advertising",
+            "Auto Payment",
+            "Bonus",
+            "Buy",
+            "Cash Back Rewards",
+            "Child Support",
+            "Credit Card Payment",
+            "Deposit",
+            "Dividend & Cap Gains",
+            "Federal Tax",
+            "Financial",
+            "Financial Advisor",
+            "Gift Income",
+            "Gifts & Donations",
+            "Hide from Budgets & Trends",
+            "Income",
+            "Interest Income",
+            "Investments",
+            "Laundry",
+            "Loan Fees and Charges",
+            "Loan Insurance",
+            "Loan Interest",
+            "Loan Payment",
+            "Loan Principal",
+            "Loans",
+            "Paycheck",
+            "Pet Food & Supplies",
+            "Pet Grooming",
+            "Pets",
+            "Reimbursement",
+            "Rental Income",
+            "Returned Purchase",
+            "Sales Tax",
+            "Sell",
+            "State Tax",
+            "Student Loan",
+            "Tax Refund",
+            "Trade Commissions",
+            "Transfer",
+            "Transfer for Cash Spending",
+            "Veterinary",
+            "Withdrawal"
+        ]
+    ],
+    "Vacation": [
+        "Vacation",
+        [
+            "Air Travel",
+            "Hotel",
+            "Rental Car & Taxi",
+            "Travel",
+            "Vacation",
+            "Vacation Food/Drink"
+        ]
+    ]
+}

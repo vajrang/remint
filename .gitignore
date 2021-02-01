@@ -1,0 +1,8 @@
+data/
+session/
+cache/
+__pycache__/
+budgets.json
+config.json
+chromedriver
+launch.json
