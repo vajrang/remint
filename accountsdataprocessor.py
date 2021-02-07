@@ -52,22 +52,17 @@ class AccountsDataProcessor():
         total_wo_assets = df['value'].sum() - assets
         total = df['value'].sum()
 
-        retval = {
-            'Savings': savings,
-            'Investments': investments,
-            '401k': inv401k,
-            '529': inv529,
-            'HSA': invHSA,
-            'Assets': assets,
-            'Unaccounted': unaccounted,
-            'Total (w/o assets)': total_wo_assets,
-            'Grand Total': total,
-        }
+        retval = (
+            [
+                ('Savings', savings),
+                ('Investments', investments),
+                ('401k', inv401k),
+                ('529', inv529),
+                ('HSA', invHSA),
+                ('Assets', assets),
+                ('Unaccounted', unaccounted),
+                ('Total (w/o assets)', total_wo_assets),
+                ('Grand Total', total),
+            ]
+        )
         return retval
-
-    def __str__(self) -> str:
-        info = self.get_summary()
-        retval = []
-        for ac in info:
-            retval.append(f'{ac}: {info[ac]:,.0f}')
-        return '\n'.join(retval)

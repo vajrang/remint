@@ -4,3 +4,6 @@ mintapi
 json
 bitarray
 ediblepickle
+fastapi
+uvicorn
+streamlit
