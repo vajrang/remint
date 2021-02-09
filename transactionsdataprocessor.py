@@ -16,7 +16,7 @@ class TransactionsDataProcessor():
 
     @staticmethod
     def _process(rawdata: dict, parents: dict, budget_parents: dict) -> pd.DataFrame:
-        df = pd.read_df(BytesIO(rawdata))
+        df = pd.read_csv(BytesIO(rawdata))
 
         df['Date'] = pd.to_datetime(df['Date'])
         df = df[df['Date'] >= '2011-01-01'].copy()
