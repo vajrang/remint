@@ -11,9 +11,12 @@ class CategoriesDataProcessor():
     @staticmethod
     def _process(rawdata: dict) -> pd.DataFrame:
         df = pd.DataFrame(rawdata).transpose()
-        assert df['depth'].max() == 2
-        df['parentCategory'] = df['parent'].apply(pd.Series)['name']
-        df.drop(['parent', 'notificationName'], axis=1, inplace=True)
+        assert df['depth'].max() == 2  # more than two levels deep not handled
+        df['parentCategory'] = df['parent'].apply(pd.Series)['name']  # normalize the json in the parent column
+        df.drop(['parent', 'notificationName'], axis=1, inplace=True)  # drop unneeded columns
+
+        # set the parent to self if it's a root category (makes it easier to groupby later)
+        df.loc[df['parentCategory'] == 'Root', 'parentCategory'] = df['name']
         return df
 
     def get_parents(self) -> dict:
