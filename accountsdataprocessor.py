@@ -61,6 +61,7 @@ class AccountsDataProcessor():
                 ('HSA', invHSA),
                 ('Assets', assets),
                 ('Unaccounted', unaccounted),
+                ('Savings+Inv', savings + investments),
                 ('Total (w/o assets)', total_wo_assets),
                 ('Grand Total', total),
             ]
